@@ -1,0 +1,3 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" 
+    Service="VuelingPractica.Distributed.WebServices.Contracts.IVuelingWebService, VuelingPractica.Distributed.WebServices.Contracts" 
+    Factory="Autofac.Integration.Wcf.AutofacServiceHostFactory, Autofac.Integration.Wcf" %>
