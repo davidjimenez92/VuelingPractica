@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VuelingPractica.Infrastruct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VuelingPractica.Infrastructure.RepositoriesIntegrationTests", "VuelingPractica.Infrastructure.RepositoriesIntegrationTests\VuelingPractica.Infrastructure.RepositoriesIntegrationTests.csproj", "{7E455188-0141-45A0-87DD-06C3A0E46354}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VuelingPractica.Application.ServicesUnitTests", "VuelingPractica.Application.ServicesUnitTests\VuelingPractica.Application.ServicesUnitTests.csproj", "{391774E6-E0F0-488B-897A-7E55072C7038}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{7E455188-0141-45A0-87DD-06C3A0E46354}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E455188-0141-45A0-87DD-06C3A0E46354}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E455188-0141-45A0-87DD-06C3A0E46354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{391774E6-E0F0-488B-897A-7E55072C7038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{391774E6-E0F0-488B-897A-7E55072C7038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{391774E6-E0F0-488B-897A-7E55072C7038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{391774E6-E0F0-488B-897A-7E55072C7038}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
