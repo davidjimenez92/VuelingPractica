@@ -53,6 +53,10 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\VuelingPractica.CrossCutting.AppSettings\VuelingPractica.CrossCutting.AppSettings.csproj">
+      <Project>{3CDBAB1D-BBB8-42A3-B3BB-6AC374FE4130}</Project>
+      <Name>VuelingPractica.CrossCutting.AppSettings</Name>
+    </ProjectReference>
     <ProjectReference Include="..\VuelingPractica.Domain.Entities\VuelingPractica.Domain.Entities.csproj">
       <Project>{5E159E8D-9564-43A1-AACC-F968DCB09570}</Project>
       <Name>VuelingPractica.Domain.Entities</Name>

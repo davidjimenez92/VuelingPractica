@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Configuration;
+using System.IO;
+using VuelingPractica.CrossCutting.AppSettings;
 using VuelingPractica.Domain.Entities;
 using VuelingPractica.Infrastructure.Repositories.Contracts;
 
@@ -10,9 +8,16 @@ namespace VuelingPractica.Infrastructure.Repositories.Implementations
 {
     public class TextFileRepository : IFileRepository<Registry>
     {
+        private static readonly VuelingPracticaAppSettings config = ConfigurationManager.GetSection(nameof(VuelingPracticaAppSettings)) as VuelingPracticaAppSettings;
+
         public Registry Add(Registry entity)
         {
-            throw new NotImplementedException();
+            using (StreamWriter streamWriter = File.AppendText(config.TextFilePath))
+            {
+                streamWriter.WriteLine(entity);
+            }
+
+            return entity;
         }
     }
 }
